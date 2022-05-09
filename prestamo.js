@@ -16,8 +16,8 @@ let capturar = function () {
     switch(sistema){
         /*SISTEMA FRANCES*/
 
-        case "Fances":
-            alert("La simulacion se realizara por la suma de "+importe+" calculado segun el sistema de amortizacion "+sistema)
+        case "Frances":
+            alert("La simulacion se realizara por la suma de "+importe+" calculado segun el sistema de amortización "+sistema)
 
             let j = 1;
 
@@ -38,7 +38,7 @@ let capturar = function () {
 
         /*SISTEMA ALEMAN*/
         case"Aleman":
-        alert("La simulacion se realizara por la suma de "+importe+" calculado segun el sistema de amortizacion "+sistema)
+        alert("La simulacion se realizara por la suma de "+importe+" calculado segun el sistema de amortización "+sistema)
             let cuotaAleman = capital/n
             for(k=0;k<n;k++){
                 let saldo = capital-(cuotaAleman*k)
@@ -55,7 +55,7 @@ let capturar = function () {
         break;
         /*SISTEMA AMERICANO*/
         case "Americano":
-            alert("La simulacion se realizara por la suma de "+importe+" calculado segun el sistema de amortizacion "+sistema)
+            alert("La simulacion se realizara por la suma de "+importe+" calculado segun el sistema de amortización "+sistema)
             let cuotaAme = capital*i
             for(g=1;g<=n;g++){
                 if(g==n){
